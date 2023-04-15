@@ -1,0 +1,159 @@
+
+.team{
+    height: 100vh;
+    margin-top: 13.698630136986301vh;
+    align-items: center;
+
+}
+
+.team h1{
+    position: absolute;
+    margin-top: 6.0882800608828vh;
+    color: #e8e8e8;
+    font-size: 6.0882800608828vh;
+
+}
+
+.rahmen-div{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 97vh;
+    width: 190vh;
+    margin-left: 7.610350076103501vh;
+    border-radius: 50px; /*1*/
+    border: 10px solid transparent; /*2*/
+    background: linear-gradient(250.97deg, rgba(10, 12, 34, 0.7) 8.31%, rgba(4, 4, 23, 0.7) 81.3%);;
+    z-index: 0;
+    -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 97vh;
+    width: 190vh;
+}
+
+
+
+.row {
+    z-index: 1;
+    --bs-gutter-x: 2rem;
+    --bs-gutter-y: 0;
+
+
+}
+
+.col-md-4{
+   
+    max-height: 30.441400304414003vh;
+
+    flex-wrap: wrap;
+
+
+
+}
+
+
+.user-pic {
+
+    width:  15.220700152207002vh;
+    height: 15.220700152207002vh;
+    overflow: hidden;
+    border-radius: 100%;
+    margin: 3.0441400304414vh auto 3.0441400304414vh;
+    border-left: 0.45662100456621vh solid #ddd;
+    border-right: 0.45662100456621vh solid #ddd;
+    border-top: 0.45662100456621vh solid rgb(7, 0, 55);
+    border-bottom: 0.45662100456621vh solid rgb(7, 0, 55);
+    transform: rotate(-30deg);
+    transition: 0.5s;
+
+}
+
+.card-box:hover .user-pic {
+
+    transform: rotate(0deg);
+
+    transform: scale(1.1);
+
+}
+
+.card-box {
+
+    padding: 2.2831050228310503vh;
+    background-color: #27282a;
+    margin: 6.0882800608828vh 0px;
+    border-radius: 1.5220700152207vh;
+    border: 0.15220700152207vh solid rgb(7, 0, 55);
+    box-shadow: 0px 0px 1.21765601217656vh 0px rgb(7, 0, 55);
+    transition: 0.5s;
+    margin-top: 18.264840182648403vh;
+    height: 68.4931506849315vh;
+    width: 38.051750380517504vh;
+
+}
+
+.card-box hr{
+background-color: #FFFFFF;
+
+}
+.card-box h6{
+color: #FFFFFF;
+font-size: 1.2445095168374818vw;
+
+}
+
+.card-box h4{
+    color: #e8e8e8;
+    font-size: 1.8301610541727673vw;
+    
+    }
+.card-box p{
+    color: #e8e8e8;
+    font-size:  2.2831050228310503vh;
+    
+    }
+
+.card-box a{
+
+    color: white;
+
+    background-color: rgb(7, 0, 55);
+
+    border-color: rgb(7, 0, 55);
+    margin: auto;
+    font-size: 2.5875190258751903vh;
+
+    
+
+}
+
+.card-box a:hover{
+
+    color: white;
+
+    background-color: rgb(5, 2, 28);
+
+    border-color: rgb(5, 2, 28);
+
+    
+
+}
+
+
+
+.card-box:hover {
+
+	border: 0.15220700152207vh solid rgb(5, 2, 28);
+
+}

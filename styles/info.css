@@ -1,0 +1,182 @@
+/*about*/
+
+.about{
+    height: 100vh;
+}
+
+.shape3{
+    
+position: absolute;
+width: 25.56773211567732vh;
+height: 29.004566210045663vh;
+left:  6.1248097412480975vh;
+top: 127.85388127853881vh;
+
+
+background: linear-gradient(250.97deg, rgba(18, 22, 64, 0.7) 8.31%, rgba(8, 7, 44, 0.7) 81.3%);
+box-shadow: inset 7px 10px 4.42111px rgba(0, 0, 0, 0.25), inset 0px -4.42111px 4.42111px rgba(0, 0, 0, 0.1);
+border-radius: 4.189786910197869vh;
+transform: rotate(-98.42deg);
+
+}
+
+.shape4{
+    position: absolute;
+    width:  25.56773211567732vh;
+    height:  29.004566210045663vh;
+    left:  57.8751902587519vh;
+    top: 196.90106544901067vh;
+
+background: linear-gradient(250.97deg, rgba(18, 22, 64, 0.7) 8.31%, rgba(8, 7, 44, 0.7) 81.3%);
+box-shadow: inset 7px 10px 4.42111px rgba(0, 0, 0, 0.25), inset 0px -4.42111px 4.42111px rgba(0, 0, 0, 0.1);
+border-radius: 4.189786910197869vh;
+transform: rotate(98.24deg);
+
+}
+
+.bot{
+position: absolute;
+left: 15.981735159817351vh;
+top: 143.6834094368341vh;
+
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius:  3.8051750380517504vh;
+}
+
+.bot img{
+    width: 51.51141552511415vh;
+height: 70.38508371385083vh;
+}
+
+.bot {
+    animation-name: bot;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bot {
+    from {transform:translate(0, 0px);}
+    50% {transform:translate(0px, -30px);}
+    to {transform: translate(0px, -0px);}
+}
+
+.about-div{
+    height: 96.80365296803653vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 54%;
+    margin-top: -4%;
+
+
+
+background: linear-gradient(250.97deg, rgba(18, 22, 64, 0.7) 8.31%, rgba(8, 7, 44, 0.7) 81.3%);
+box-shadow: inset 0px -4px 4px rgba(255, 255, 255, 0.1), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3.0441400304414vh;
+}
+
+.border{
+    margin-top:  3.0001400304414vh;
+    position: absolute;
+box-sizing: border-box;
+width: 38%;
+height: 91%;
+border: 0.76103500761035vh solid #1F1F1F;
+border-radius: 1.5220700152207vh;
+
+
+}
+
+.about-text{
+    flex: 0.5;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 8.075083713850837vh;
+line-height: 12.1765601217656vh;
+text-align: center;
+
+color: #FFFFFF;
+margin-top: 7.610350076103501vh;
+}
+
+.p{
+    flex: 1.5;
+    width: 65.90563165905631vh;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 2.5875190258751903vh;
+line-height: 5.175038051750381vh;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.p2{
+    flex: 1.3;
+    font-family: 'Poppins';
+    width: 65.90563165905631vh;
+font-style: normal;
+font-weight: 400;
+font-size:2.5875190258751903vh;
+line-height:  5.175038051750381vh;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.Join-Add{
+    flex: 0.7;
+    
+    z-index: 1;
+}
+
+.Join-us{
+        width: 23.28767123287671vh;
+        height: 8.401826484018265vh;
+        color: #e8e8e8;
+        cursor: pointer;
+        font-size: 2.5875190258751903vh;
+        
+        
+        
+        background: rgba(217, 217, 217, 0.01);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 2px -3px 2px rgba(0, 0, 0, 0.3);
+        border-radius:1.5220700152207vh;
+        border: none;
+        }
+        .Join-us:hover{
+            background: linear-gradient(250.97deg, rgba(10, 12, 34, 0.7) 8.31%, rgba(4, 4, 23, 0.7) 81.3%);;
+            box-shadow: inset -2px 6.83871px 2px rgba(0, 0, 0, 0.25), inset 0px -1.70968px 6.83871px rgba(255, 255, 255, 0.01);
+          border-radius: 1.5220700152207vh;
+          border: none;
+
+}
+
+.add-bot{
+    width: 23.28767123287671vh;
+    height: 8.401826484018265vh;
+    color: #e8e8e8;
+    cursor: pointer;
+    font-size: 2.5875190258751903vh;
+    margin-left: 20PX;
+    
+    
+    background: rgba(217, 217, 217, 0.01);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 2px -3px 2px rgba(0, 0, 0, 0.3);
+    border-radius:1.5220700152207vh;
+    border: none;
+    }
+    .add-bot:hover{
+        background: linear-gradient(250.97deg, rgba(10, 12, 34, 0.7) 8.31%, rgba(4, 4, 23, 0.7) 81.3%);;
+        box-shadow: inset -2px 6.83871px 2px rgba(0, 0, 0, 0.25), inset 0px -1.70968px 6.83871px rgba(255, 255, 255, 0.01);
+      border-radius: 1.5220700152207vh;
+      border: none;
+
+}

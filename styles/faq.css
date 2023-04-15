@@ -1,0 +1,47 @@
+.faq{
+    margin-top: 15.220700152207002vh;
+    height:100vh;
+}
+
+.shape7 img{
+    position: absolute;
+    width: 48.7062404870624vh;
+    height:  79.1476407914764vh;
+}
+
+.shape8{
+    display: flex;
+    justify-content: flex-end;
+}
+.shape8 img{
+    position: absolute;
+    width: 48.7062404870624vh;
+    height: 79.1476407914764vh;
+    margin-top: 22.831050228310502vh;
+}
+
+.text-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text-container h1, p{
+    color: #ededed;
+}
+
+.text-container h1{
+    margin-bottom:  10.654490106544902vh;
+    font-size: 10.654490106544902vh;
+}
+.text-container p{
+    font-size: 3.1963470319634704vh;
+    width: 76.10350076103501vh;
+}
+
+.text-container .Join-us{
+    margin-top: 4.566210045662101vh;
+}
